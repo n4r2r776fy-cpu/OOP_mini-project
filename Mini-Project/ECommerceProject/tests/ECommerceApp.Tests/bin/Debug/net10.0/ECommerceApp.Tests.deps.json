@@ -10,6 +10,7 @@
         "dependencies": {
           "ECommerceApp.Application": "1.0.0",
           "ECommerceApp.Domain": "1.0.0",
+          "ECommerceApp.Infrastructure": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -350,6 +351,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ECommerceApp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ECommerceApp.Application": "1.0.0",
+          "ECommerceApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ECommerceApp.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -442,6 +455,11 @@
       "sha512": ""
     },
     "ECommerceApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerceApp.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

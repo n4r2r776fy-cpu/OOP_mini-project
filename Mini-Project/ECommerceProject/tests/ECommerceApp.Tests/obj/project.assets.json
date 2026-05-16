@@ -416,6 +416,20 @@
         "runtime": {
           "bin/placeholder/ECommerceApp.Domain.dll": {}
         }
+      },
+      "ECommerceApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "ECommerceApp.Application": "1.0.0",
+          "ECommerceApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceApp.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -936,12 +950,18 @@
       "type": "project",
       "path": "../../src/ECommerceApp.Domain/ECommerceApp.Domain.csproj",
       "msbuildProject": "../../src/ECommerceApp.Domain/ECommerceApp.Domain.csproj"
+    },
+    "ECommerceApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../src/ECommerceApp.Infrastructure/ECommerceApp.Infrastructure.csproj",
+      "msbuildProject": "../../src/ECommerceApp.Infrastructure/ECommerceApp.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "ECommerceApp.Application >= 1.0.0",
       "ECommerceApp.Domain >= 1.0.0",
+      "ECommerceApp.Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -980,6 +1000,9 @@
             },
             "D:\\OOP_mini project\\Mini-Project\\ECommerceProject\\src\\ECommerceApp.Domain\\ECommerceApp.Domain.csproj": {
               "projectPath": "D:\\OOP_mini project\\Mini-Project\\ECommerceProject\\src\\ECommerceApp.Domain\\ECommerceApp.Domain.csproj"
+            },
+            "D:\\OOP_mini project\\Mini-Project\\ECommerceProject\\src\\ECommerceApp.Infrastructure\\ECommerceApp.Infrastructure.csproj": {
+              "projectPath": "D:\\OOP_mini project\\Mini-Project\\ECommerceProject\\src\\ECommerceApp.Infrastructure\\ECommerceApp.Infrastructure.csproj"
             }
           }
         }
