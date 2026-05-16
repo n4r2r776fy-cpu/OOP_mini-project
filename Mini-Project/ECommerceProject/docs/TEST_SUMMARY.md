@@ -43,4 +43,3 @@ dotnet test tests/ECommerceApp.Tests/ECommerceApp.Tests.csproj
 - Перегляньте тести: `tests/ECommerceApp.Tests/FinalTests.cs` та `tests/ECommerceApp.Tests/Integration/JsonProductRepositoryTests.cs` для повних прикладів асерцій.
 - Додаткові нотатки про тестування знаходяться в `tests/ECommerceApp.Tests/testdocs.md`.
 
-![alt text](image.png)
